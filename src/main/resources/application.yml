@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sockswarehouse
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: validate
